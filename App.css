@@ -6,29 +6,37 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #eaeaea;
+  background-color: #C84E89;
   overflow-x: hidden;
   overflow-y: hidden;
 }
+
 .card {
-  border: 1px solid #ccc;
+  border: 1px solid #CC2B5E;
   border-radius: 10px;
   padding: 20px;
   width: 300px;
-  background-color: #f9f9f9;
+  background-color: #F15F79;
+  
 }
-
+.card:hover{
+      transform: scale(1.05);
+    
+}
 .card img {
   width: 100%;
   border-radius: 10px;
 }
-
+.card img:hover{
+  transform: rotate(3deg);
+}
 .card h2 {
   margin: 10px 0 5px;
 }
 
 .card p {
   margin: 5px 0;
+  font-size: 18px;
 }
 
 .skills {
@@ -36,10 +44,14 @@ body {
 }
 
 .skills span {
-  background-color: #007bff;
+  background-color: #FC6767;
   color: white;
   padding: 5px 8px;
   border-radius: 5px;
   margin-right: 5px;
   font-size: 0.9em;
+cursor: pointer;
+}
+.skills span:hover{
+background-color: #EC008C;
 }
